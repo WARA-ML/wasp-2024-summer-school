@@ -37,7 +37,7 @@ This task involves previewing the animations you generated. With the web-based s
 1. Upload the generated BVH motion file and its corresponding WAV audio file.
 2. Click "Download (MP4)" to create and save the preview video.
 
-### Task 3. Export the motion as FBX
+## Task 3. Export the motion as FBX
 The final task is to convert the BVH motion file to FBX format, which is required for use in Unreal Engine. You'll use the BVH file generated earlier in this step.
 
 **Steps**
@@ -59,12 +59,12 @@ If you finished the tutorial, you are free to continue experimenting or do somet
 
 Hopefully you had fun and learned something new :)
 
-## Links
-### ZeroEGGS
+# Links
+## ZeroEGGS
 A cool and high-quality gesture generation model developed by Saeed Ghorbani and his colleagues at Ubisoft LaForge.
 
 - repo: [https://github.com/ubisoft/ubisoft-laforge-ZeroEGGS](https://github.com/ubisoft/ubisoft-laforge-ZeroEGGS)
 - arXiv paper: [https://arxiv.org/abs/2209.07556](https://arxiv.org/abs/2209.07556)
 
-### Summer school gesgen system
+## Summer school gesgen system
  - repo: [https://github.com/TeoNikolov/wasp-ss-gesgen/](https://github.com/TeoNikolov/wasp-ss-gesgen/)
