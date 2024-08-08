@@ -1,39 +1,23 @@
-# wasp-2023-summer-school
+# WASP Summer School 2024 On-site Assignment
 
-## Welcome
+This repo hosts all the information you need to complete the WASP Summer School 2024 on-site assignment.
 
-This repository hosts the full pipeline code for the WASP summer school 2023 group assignments. The system contains three major components, with corresponding resources broken down into the following folders:
+### Assignment
+## Goal
 
-- Generating text with a text prompt : [`./subsystem1_text-generation/`](https://github.com/Svito-zar/wasp-2023-summer-school/tree/main/subsystem1_text-generation)
-- Synthesizing speech from text : [`./subsystem2_text-to-speech/`](https://github.com/Svito-zar/wasp-2023-summer-school/tree/main/subsystem2_text-to-speech)
-- Generating gesture animations from audio : [`./subsystem3_gesture-generation/`](https://github.com/Svito-zar/wasp-2023-summer-school/tree/main/subsystem3_gesture-generation)
+This assignment lets you explore how AI can be used to create a complete storytelling experience. You'll use AI to script a story, turn it into speech, and animate it with gesturing avatars. The focus is on understanding how these tools work together, using the files you generate and the parameters you control. This is your opportunity to experiment, learn, and have fun with the technology.
 
-The Monday student assignment presentation is in file `student-assignment.pptx`.
-
-The demo video for the student assignment shown on Monday can be found [on YouTube](https://www.youtube.com/watch?v=by40aaCbLpY).
-
-## Agenda
-In the assignment you will be dealing with various systems. The primary goal is to first familiarize you with these systems, and then to use what you learned before making your final submissions.
-
-The information below is derived from the original agenda [here](https://internal.wasp-sweden.org/event/wasp-summer-school-synthesis-of-human-communication-2023/). It will likely not be updated in case of any changes, but you will be notified on Slack (in the `general` channel for now).
-
-- Monday 15:30 - Presentation of assignment
-- Tuesday 14:00 - 16:00 - Work on [text generation tutorial](https://github.com/Svito-zar/wasp-2023-summer-school/tree/main/subsystem1_text-generation)
-- Wednesday 10:00 - 12:00 - Work on [text to speech tutorial](https://github.com/Svito-zar/wasp-2023-summer-school/tree/main/subsystem2_text-to-speech)
-- Wednesday 14:20 - 16:00 - Work on [gesture generation tutorial](https://github.com/Svito-zar/wasp-2023-summer-school/tree/main/subsystem3_gesture-generation)
-- Wednesday 16:00 - 17:00 - Work on the tutorials
-- Thursday 09:00 - 12:00 - Work on final assignment
-- **Thursday 12:00 - Submission deadline**
-- Friday 09:00 - 12:00 - Demo of your submissions in the 3D dome
-
-## Assignment
-The goal of the student assignment is for you to be creative and tell your own story by using the tools you interacted with during the tutorial sessions. Last year, the students completed a similar assignment, in which they created stories in a "free-for-all" theme. You can view the result of their submissions online:
+Here are the submissions from 2022:
 - [Team 1 submission](https://www.youtube.com/watch?v=IyaEcUJp6G8)
 - [Team 2 submission](https://www.youtube.com/watch?v=OJMNvtoPsfk)
 - [Team 3 submission](https://www.youtube.com/watch?v=3mwK3OCXH9k)
 - [Team 4 submission](https://www.youtube.com/watch?v=h8z85fxWz10)
 
-This year we are changing the theme to "participation in a popular talent show". The stories that you craft and submit are encouraged to fit into the "talent show" theme, but do not feel overly constrained by it; use it primarily for inspiration.
+### Theme Description: "Cringy Sitcom"
+
+This year's theme, "Cringy Sitcom," invites you to create awkward and exaggerated scenes reminiscent of classic TV sitcoms. Think of cheesy one-liners, over-the-top reactions, and characters who find themselves in hilariously uncomfortable situations. While the theme serves as a fun, unifying idea for all submissions, it's just a suggestion - you're free to get creative and go in any direction you like. The theme will also guide the hosts who present the final videos, adding some light-hearted humor to the showcase.
+
+### Workflow
 
 You can expect to follow this process when completing the assignment:
 1. You use LLMs to generate a script for your story
@@ -46,7 +30,7 @@ For the audio files, you are free to use any AI generated voice or even your own
 
 When you send us your submission, we will put together a video sequence showcasing what you created. We will put a brief intro / outro at the beginning / end of your story, similar to how we did with the white avatars during the Assignment Demo. (*TODO: Upload the demo and presentation after day is over*)
 
-### Submission instructions
+## Submission
 To submit, send an email to `tnikolov@hotmail.com` OR `tsakovm@gmail.com`.
 
 Your submission should be **2-5 minutes** long and be composed of the following files:
@@ -122,3 +106,24 @@ We offer 5 worlds to choose from:
 </p>
 
 You can find more examples in the [images](https://github.com/Svito-zar/wasp-2023-summer-school/blob/main/Images/) folder.
+
+## Presentation Files
+
+The Monday student assignment presentation is in file `student-assignment.pptx`.
+
+The demo video for the student assignment shown on Monday can be found [on YouTube](https://www.youtube.com/watch?v=by40aaCbLpY).
+
+## Agenda
+In the assignment you will be dealing with various systems. The primary goal is to first familiarize you with these systems, and then to use what you learned before making your final submissions.
+
+The information below is derived from the original agenda [here](https://internal.wasp-sweden.org/event/wasp-summer-school-synthesis-of-human-communication-2023/). It will likely not be updated in case of any changes, but you will be notified on Slack (in the `general` channel for now).
+
+- Monday 15:30 - Presentation of assignment
+- Tuesday 14:00 - 16:00 - Work on [text generation tutorial](https://github.com/Svito-zar/wasp-2023-summer-school/tree/main/subsystem1_text-generation)
+- Wednesday 10:00 - 12:00 - Work on [text to speech tutorial](https://github.com/Svito-zar/wasp-2023-summer-school/tree/main/subsystem2_text-to-speech)
+- Wednesday 14:20 - 16:00 - Work on [gesture generation tutorial](https://github.com/Svito-zar/wasp-2023-summer-school/tree/main/subsystem3_gesture-generation)
+- Wednesday 16:00 - 17:00 - Work on the tutorials
+- Thursday 09:00 - 12:00 - Work on final assignment
+- **Thursday 12:00 - Submission deadline**
+- Friday 09:00 - 12:00 - Demo of your submissions in the 3D dome
+
