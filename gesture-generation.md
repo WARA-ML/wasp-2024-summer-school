@@ -54,18 +54,14 @@ If you prefer to set up the server on your own machine (e.g., if the WASP server
 5. Set a seed. Different seeds will randomize the result.
 6. Click "Download (BVH)" to generate and save the BVH file.
 
-### Task 2. Previewing the generated motion
-1. Open the server web page.
-2. Click on the file input button after "Motion (BVH)" and pick the generated BVH motion file.
-3. Click on the file input button after "Audio (WAV)" and pick the WAV audio file that matches the generated BVH file you want to visualise.
-4. Press "Download (MP4)" when you are satisfied with your choices. *Warning: There is a bug that may require you to press the button multiple times until the generation starts.*
-5. Wait for the process to complete; this can take a while. You will be shown a "download file" dialog to save the generated MP4 file when finished.
+### Task 2. Preview the generated motion
+1. Upload the generated BVH motion file and its corresponding WAV audio file.
+2. Click "Download (MP4)" to create and save the preview video.
 
-### Task 3. Export the generated motion as FBX
-1. Open the server web page.
-2. Click on the file input button after "Motion (BVH)" and pick the generated BVH motion file.
-3. Press "Download (FBX)" when you are satisfied with your choice.
-4. Wait for the process to complete; this can take a while. You will be shown a "download file" dialog to save the generated FBX file when finished.
+### Task 3. Export the motion as FBX
+
+1. Upload the generated BVH motion file.
+2. Click "Download (FBX)" to convert and save the file in FBX format.
 
 ## Approach B - Docker CLI
 If you prefer to get your hands dirty and write commands in the command line interface, you must first set up the Docker solution (with the web server) on your machine. Follow the instructions under "Local setup" in the [gesgen repository](https://github.com/TeoNikolov/wasp-ss2023-gesgen/).
