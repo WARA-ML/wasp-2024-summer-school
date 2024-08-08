@@ -39,21 +39,11 @@ This task involves previewing the animations you generated. With the web-based s
 The final task is to convert the BVH motion file to FBX format, which is required for use in Unreal Engine. You'll use the BVH file generated earlier in this step.
 
 ## Approach A - Web server
-A web server is provided to spare you the hurdles of setting up all the necessary libraries and dependencies yourself. WASP hosts web servers at the following web addresses that can be accessed from your browser:
-- Production server (recommended) : `http://129.192.81.237/`
-- Development server (backup) : `http://129.192.83.172/`
+Using the web server is the easiest way to complete the tasks without setting up any software locally. WASP provides two servers accessed via browser:
+- Server 1 (recommended) : [http://129.192.83.172](http://129.192.83.172) or [http://wasp.teonikolov.com](http://wasp.teonikolov.com)
+- Server 2 : [http://129.192.82.245](http://129.192.82.245) or [http://wasp2.teonikolov.com](http://wasp2.teonikolov.com)
 
-In some cases you might prefer to set up the server on your machine:
-- There is an issue connecting to the WASP servers.
-- The WASP servers have crashed.
-- You want to dive deep into the technicalities of the system.
-- You want to modify the functionality of the system (good for learning in your spare time).
-
-In this case, you need to follow the instructions under "Local setup" in the [gesgen repository](https://github.com/TeoNikolov/wasp-ss2023-gesgen/). When set up, you can access the local server at `http://localhost/` .
-
-*Note: The development server can be used in case the production server fails.*
-
-*Note: The development server will be used to test any changes to the system during the summer school. As a result, it may go up and down at any time. Use it at your own risk!*
+If you prefer to set up the server on your own machine (e.g., if the WASP servers are unavailable or you want to explore the system in more detail), follow the "Local setup" instructions in the [gesgen repository](https://github.com/TeoNikolov/wasp-ss2023-gesgen/).
 
 ### Task 1. Generating BVH motion from audio
 1. Open the server web page.
