@@ -1,10 +1,10 @@
 # Gesture Generation Tutorial
-For this tutorial you will be generating gestural animations using an AI model, visualizing the generated animations, and exporting them in a common format. Specifically, you will be completing the following tasks:
-- Generating BVH motion from WAV audio
-- Previewing the generated motion as a MP4 video
-- Exporting the generated BVH motion as an FBX file format
+In this tutorial you will:
+- Generate BVH motion from WAV audio using AI (ZeroEGGS)
+- Preview the generated motion as a MP4 video
+- Export the generated BVH motion as an FBX file
 
-You can complete the tasks via multiple approaches: (A) using a web server, (B) using the command line interface (CLI) inside Docker containers.
+You can complete the tasks via (A) using a web server, or (B) using the command line interface (CLI) inside Docker containers.
 
 ## Table of Contents
 - [Gesture Generation Tutorial](#gesture-generation-tutorial)
@@ -26,7 +26,7 @@ You can complete the tasks via multiple approaches: (A) using a web server, (B) 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
-## Overview of tasks
+## Task overview
 ### Task 1. Generating BVH motion from audio
 The first task is to use the ZeroEGGS AI model to generate gestures from audio. This audio may be either synthetic, your own voice, or any other audio you got from the internet. When completing the task, think about the following:
 - How does changing one parameter affect the generated animation? Make sure to keep the seed fixed.
@@ -165,3 +165,14 @@ If you finished the tutorial, you are free to continue experimenting or do somet
 - Have a relaxing discussion with ChatGPT about the essence of life and the universe
 
 Hopefully you had fun and learned something new :)
+
+
+## Links
+### ZeroEGGS
+A cool and high-quality gesture generation model developed by Saeed Ghorbani and his colleagues at Ubisoft LaForge.
+
+- repo: [https://github.com/ubisoft/ubisoft-laforge-ZeroEGGS](https://github.com/ubisoft/ubisoft-laforge-ZeroEGGS)
+- arXiv paper: [https://arxiv.org/abs/2209.07556](https://arxiv.org/abs/2209.07556)
+
+### Summer school gesgen system
+ - repo: [https://github.com/TeoNikolov/wasp-ss-gesgen/](https://github.com/TeoNikolov/wasp-ss-gesgen/)
