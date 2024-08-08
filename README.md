@@ -7,13 +7,7 @@ This repo hosts all the information you need to complete the WASP Summer School 
 
 This assignment lets you explore how AI can be used to create a complete storytelling experience. You'll use AI to script a story, turn it into speech, and animate it with gesturing avatars. The focus is on understanding how these tools work together, using the files you generate and the parameters you control. This is your opportunity to experiment, learn, and have fun with the technology.
 
-Submissions from 2022:
-- [Team 1](https://www.youtube.com/watch?v=IyaEcUJp6G8)
-- [Team 2](https://www.youtube.com/watch?v=OJMNvtoPsfk)
-- [Team 3](https://www.youtube.com/watch?v=3mwK3OCXH9k)
-- [Team 4](https://www.youtube.com/watch?v=h8z85fxWz10)
-
-Submissions from 2023:
+**Submission 2023:**
 - [Talent Show Introduction](https://youtube.com/watch?v=GivcAqaoIQ4)
 - [Team: Algorithmic Amigos](https://youtube.com/watch?v=RyWqAy3Yidk)
 - [Team: VR WASP Wizards](https://youtube.com/watch?v=CeGuwhIivNY&t=16s)
@@ -21,6 +15,11 @@ Submissions from 2023:
 - [Team: Quebec](https://youtube.com/watch?v=dor8EfV6TeI&t=111s)
 - [Team: Lucasfilm Ltd TM](https://youtube.com/watch?v=TppQ7tklMCQ)
 
+**Submissions 2022:**
+- [Team 1](https://www.youtube.com/watch?v=IyaEcUJp6G8)
+- [Team 2](https://www.youtube.com/watch?v=OJMNvtoPsfk)
+- [Team 3](https://www.youtube.com/watch?v=3mwK3OCXH9k)
+- [Team 4](https://www.youtube.com/watch?v=h8z85fxWz10)
 
 ### Theme Description: "Cringy Sitcom"
 
