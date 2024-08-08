@@ -17,18 +17,29 @@ Here are the submissions from 2022:
 
 This year's theme, "Cringy Sitcom," invites you to create awkward and exaggerated scenes reminiscent of classic TV sitcoms. Think of cheesy one-liners, over-the-top reactions, and characters who find themselves in hilariously uncomfortable situations. While the theme serves as a fun, unifying idea for all submissions, it's just a suggestion - you're free to get creative and go in any direction you like. The theme will also guide the hosts who present the final videos, adding some light-hearted humor to the showcase.
 
-### Workflow
+### Process
 
-You can expect to follow this process when completing the assignment:
-1. You use LLMs to generate a script for your story
-2. You use Text2Speech to generate audio for the script
-3. You use Speech2Gestures to generate animations
-4. You iterate on the above steps
-5. When satisfied, you submit to us
+![](./Images/IMG_0118.png)
 
-For the audio files, you are free to use any AI generated voice or even your own voice. You can stich multiple audio files or add silence if you wish to control pacing. Please make sure that you re-generate your animations when making changes.
+The assignment is split in three stages. We will be available if you have any questions!
 
-When you send us your submission, we will put together a video sequence showcasing what you created. We will put a brief intro / outro at the beginning / end of your story, similar to how we did with the white avatars during the Assignment Demo. (*TODO: Upload the demo and presentation after day is over*)
+**Stage 1. Group Work**
+
+You work with your team to create text, audio, and animation files for your story.
+
+- Text (.txt): You use LLMs (like ChatGPT) to create a script for your story.
+- Audio (.wav): You use a text-to-audio model to generate speech audio. This year, you will most likely use the model you trained for the pre-summer school assignment (on Canvas). You can use different voices for this, not just your own. You can also stitch the audio and add silence to control the pacing.
+- Animation (.bvh, .fbx): You use the WASP gesgen app to generate gesture animations from speech audio.
+
+**Stage 2. Submission**
+
+You zip all '.txt', '.wav', '.bvh', and '.fbx' files to a '.zip' file which you submit to us. More info below.
+
+**Stage 3. Presentation**
+
+We take your files and use them to produce movie sequences in Unreal Engine. We will put a brief intro and outro at the beginning and end of your story to glue your submission with the overarching *Cringy Sitcom* theme.
+
+We then playback these sequences in the Norrkoping Visualization Center's Dome. Before playing your video, you will be called to briefly present your team and experience making the story.
 
 ## Submission
 To submit, send an email to `tnikolov@hotmail.com` OR `tsakovm@gmail.com`.
