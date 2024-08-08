@@ -45,15 +45,14 @@ Using the web server is the easiest way to complete the tasks without setting up
 
 If you prefer to set up the server on your own machine (e.g., if the WASP servers are unavailable or you want to explore the system in more detail), follow the "Local setup" instructions in the [gesgen repository](https://github.com/TeoNikolov/wasp-ss2023-gesgen/).
 
-### Task 1. Generating BVH motion from audio
-1. Open the server web page.
-2. Click on the file input button after "Audio (WAV)" and pick a WAV audio file for which you want to generate an animation with gestures.
-3. Choose a starting pose from the list after "Choose a starting pose". The corresponding pose will be used as the first frame of your generated animation. You can find previews of the poses [here](https://github.com/TeoNikolov/wasp-ss2023-gesgen/tree/main/data/start_poses/images).
-4. Pick a style for your animation from the list after "Choose a style". This will act as a guide for the generated animations.
-5. Pick a "temperature" value for gesture generation. A higher value will tell the ZeroEGGS model to generate gestures that are similar to the style you have selected. A lower value will have the opposite effect and the generated gestures will be influenced less by the selected style.
-6. Changing the seed lets you generate a different animation even for the same input. Keeping the seed fixed lets you tweak the parameters without adding additional randomness.
-7. Press "Download (BVH)" when you are satisfied with your choices. *Warning: There is a bug that may require you to press the button multiple times until the generation starts.*
-8. Wait for generation to finish. You will be shown a "download file" dialog to save the generated BVH file when finished.
+### Task 1. Generate BVH motion from audio
+
+1. Access the server web page.
+2. Upload a WAV audio file.
+3. Choose a starting pose and animation style. The starting pose will be used as the first frame of your animation. Pose previews are shown [here](https://github.com/TeoNikolov/wasp-ss-gesgen/tree/main/data/start_poses/images).
+4. Adjust the temperature for gesture variation. Higher values will result in animations that adhere more strongly to the chosen style.
+5. Set a seed. Different seeds will randomize the result.
+6. Click "Download (BVH)" to generate and save the BVH file.
 
 ### Task 2. Previewing the generated motion
 1. Open the server web page.
