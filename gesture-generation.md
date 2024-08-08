@@ -10,21 +10,20 @@ You can complete the tasks via (A) using a web server, or (B) using the command 
 - [Gesture Generation Tutorial](#gesture-generation-tutorial)
   * [Table of Contents](#table-of-contents)
   * [Overview of tasks](#overview-of-tasks)
-    + [Task 1. Generating BVH motion from audio](#task-1-generating-bvh-motion-from-audio)
+    + [Task 1. Generate BVH motion from audio](#task-1-generating-bvh-motion-from-audio)
     + [Task 2. Previewing the generated motion](#task-2-previewing-the-generated-motion)
     + [Task 3. Export the generated motion as FBX](#task-3-export-the-generated-motion-as-fbx)
   * [Approach A - Web server](#approach-a---web-server)
     + [Task 1. Generating BVH motion from audio](#task-1-generating-bvh-motion-from-audio-1)
-    + [Task 2. Previewing the generated motion](#task-2-previewing-the-generated-motion-1)
+    + [Task 2. Preview the generated motion](#task-2-previewing-the-generated-motion-1)
     + [Task 3. Export the generated motion as FBX](#task-3-export-the-generated-motion-as-fbx-1)
   * [Approach B - Docker CLI](#approach-b---docker-cli)
-    + [Task 1. Generating BVH motion from audio](#task-1-generating-bvh-motion-from-audio-2)
-    + [Task 2. Previewing the generated motion](#task-2-previewing-the-generated-motion-2)
-    + [Task 3. Export the generated motion as FBX](#task-3-export-the-generated-motion-as-fbx-2)
+    + [Task 1. Generating BVH motion from audio](#task-1-generate-bvh-motion-from-audio-2)
+    + [Task 2. Previewing the generated motion](#task-2-preview-the-generated-motion-2)
+    + [Task 3. Export the motion as FBX](#task-3-export-the-motion-as-fbx-2)
 - [Final notes](#final-notes)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 ## Task overview
 ### Task 1. Generate BVH motion from audio
@@ -33,11 +32,11 @@ Your first task is to use the ZeroEGGS AI model to create gestures from audio fi
 - Does changing the seed produce distinctly different gestures?
 - Evaluate the quality and timing of the gestures - can they be improved?
 
-### Task 2. Previewing the generated motion
-Previewing the generated animations is much more straightforward than generating them. In fact, there is very little you need to do, particularly with the web-based solution. Keep in mind that generating a video of the gestures is a relatively slow process, so please be patient.
+### Task 2. Preview the generated motion
+This task involves previewing the animations you generated. With the web-based solution, this is straightforward. Be patient, as creating the preview video might take some time.
 
-### Task 3. Export the generated motion as FBX
-The BVH file generated earlier contains animation data for a 3D skeleton. We will be using Unreal Engine for putting together the final videos for your submissions, and BVH is not a supported format. Instead, FBX is required, and you will convert the BVH file you generated into FBX.
+### Task 3. Export the motion as FBX
+The final task is to convert the BVH motion file to FBX format, which is required for use in Unreal Engine. You'll use the BVH file generated earlier in this step.
 
 ## Approach A - Web server
 A web server is provided to spare you the hurdles of setting up all the necessary libraries and dependencies yourself. WASP hosts web servers at the following web addresses that can be accessed from your browser:
