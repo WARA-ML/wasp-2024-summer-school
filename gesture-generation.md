@@ -27,12 +27,11 @@ You can complete the tasks via (A) using a web server, or (B) using the command 
 
 
 ## Task overview
-### Task 1. Generating BVH motion from audio
-The first task is to use the ZeroEGGS AI model to generate gestures from audio. This audio may be either synthetic, your own voice, or any other audio you got from the internet. When completing the task, think about the following:
-- How does changing one parameter affect the generated animation? Make sure to keep the seed fixed.
-- Does changing the seed, while keeping the generation parameters fixed, lead to gestures that are clearly distinguishable from animations generated previously?
-- Do the gestures look good? If not, can the visual quality be improved?
-- Do the gestures match the speech temporally?
+### Task 1. Generate BVH motion from audio
+Your first task is to use the ZeroEGGS AI model to create gestures from audio files, which could be synthetic, your voice, or any online audio. Consider the following:
+- How does adjusting a parameter impact the animation? Keep the seed constant.
+- Does changing the seed produce distinctly different gestures?
+- Evaluate the quality and timing of the gestures - can they be improved?
 
 ### Task 2. Previewing the generated motion
 Previewing the generated animations is much more straightforward than generating them. In fact, there is very little you need to do, particularly with the web-based solution. Keep in mind that generating a video of the gestures is a relatively slow process, so please be patient.
