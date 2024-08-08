@@ -1,6 +1,5 @@
 # Text-to-Speech
 
-
 ## Links used during the presentation
 
 ### To visualise spectrograms
