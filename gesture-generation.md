@@ -6,6 +6,8 @@ In this tutorial you will:
 
 We'll use web servers hosted by WASP to complete these tasks. If you're interested in a more advanced approach, a command line interface method is available and [documented here](https://github.com/TeoNikolov/wasp-ss-gesgen/blob/main/tutorial.md#approach-b---docker-cli), but it won’t be covered in this tutorial.
 
+---
+
 WASP provides two web servers:
 - Server 1 (recommended) : [http://129.192.83.172](http://129.192.83.172) or [http://wasp.teonikolov.com](http://wasp.teonikolov.com)
 - Server 2 : [http://129.192.82.245](http://129.192.82.245) or [http://wasp2.teonikolov.com](http://wasp2.teonikolov.com)
